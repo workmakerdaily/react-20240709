@@ -1,5 +1,5 @@
 import React from 'react'
-// 자동정렬 : ctrl + a, ctrl + k, ctrl + f
+// 자동정렬 : ctrl + a, ctrl + k + (ctrl 누른 상태로)f
 export default function CurlyBraces() {
     // Curly Braces:
     // - JSX에서 자바스크립트 표현식을 작성할 때 사용하는 방법
