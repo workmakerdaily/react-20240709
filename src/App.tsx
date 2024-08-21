@@ -5,6 +5,8 @@ import CurlyBraces from './component/CurlyBraces';
 import Properties from './component_manage/Properties';
 import ConditionalRender from './component_manage/ConditionalRender';
 import Example2 from './component_manage/example/Example2';
+import Example2copy from './component_manage/example/Example2copy';
+import ListRender from './component_manage/example/ListRender';
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       {/* <Properties /> */}
       {/* <ConditionalRender /> */}
       <Example2 />
+      {/* <ListRender /> */}
     </>
   );
 }
