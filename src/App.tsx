@@ -9,6 +9,7 @@ import Example2copy from './component_manage/example/Example2copy';
 import ListRender from './component_manage/example/ListRender';
 import EventComponent from './interaction/EventComponent';
 import StateComponent from './interaction/StateComponent';
+import ForwordingComponent from './interaction/ForwordingComponent';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Example2 /> */}
       {/* <ListRender /> */}
       {/* <EventComponent /> */}
-      <StateComponent />
+      {/* <StateComponent /> */}
+      <ForwordingComponent />
     </>
   );
 }
