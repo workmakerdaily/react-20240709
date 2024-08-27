@@ -10,6 +10,9 @@ import ListRender from './component_manage/example/ListRender';
 import EventComponent from './interaction/EventComponent';
 import StateComponent from './interaction/StateComponent';
 import ForwordingComponent from './interaction/ForwordingComponent';
+import HookComponent1 from './hook/HookComponent1';
+import HookComponent2 from './hook/HookComponent2';
+import CustomHook from './hook/CustomHook';
 
 function App() {
   return (
@@ -23,7 +26,10 @@ function App() {
       {/* <ListRender /> */}
       {/* <EventComponent /> */}
       {/* <StateComponent /> */}
-      <ForwordingComponent />
+      {/* <ForwordingComponent /> */}
+      {/* <HookComponent1 /> */}
+      {/* <HookComponent2 /> */}
+      <CustomHook />
     </>
   );
 }
