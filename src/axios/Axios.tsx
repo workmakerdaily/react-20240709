@@ -33,13 +33,13 @@ axios
     // option 매개변수
     // - request에 대한 각종 설정을 조작할 때 사용
     axios.get('http://3.34.99.196:4000/api/quantification-model', {
-        headers: { Authorization: 'Bearer otsdflsf' },
+        headers: { 'Authorization': 'Bearer otsdflsf' },
         params: { 'time': '1213' }
     });
 
     // 주의! request body가 존재하는 요청에 대해서는 매개변수의 위치 주의
     axios.post('http://3.34.99.196:4000/api', {}, {
-        headers: { Authorization: 'Bearer otsdflsf' },
+        headers: { 'Authorization': 'Bearer otsdflsf' },
         params: { 'time': '1213' }
     });
 
